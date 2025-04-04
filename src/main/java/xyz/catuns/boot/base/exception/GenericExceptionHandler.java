@@ -22,6 +22,7 @@ public class GenericExceptionHandler {
                 message
         );
 
-        return ResponseEntity.status(errorMessage.getStatusCode()).body(errorMessage);
+        return ResponseEntity.status(errorMessage.getStatusCode())
+                .body(errorMessage);
     }
 }

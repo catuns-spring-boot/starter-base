@@ -19,7 +19,7 @@ management:
       enabled: true
   endpoint:
     shutdown:
-      enabled: true
+      access:
     health:
       probes:
         enabled: true
