@@ -24,7 +24,6 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-<!--            <optional>true</optional>-->
         </dependency>
 
         <!--        TESTING         -->
@@ -63,5 +62,13 @@
         <plugins>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Devin Catuns' Spring Boot Maven Packages</name>
+            <url>https://maven.pkg.github.com/catuns-spring-boot/starter-base</url>
+        </repository>
+    </distributionManagement>
 
 </project>
